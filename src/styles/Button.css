@@ -1,0 +1,23 @@
+.payments {
+  background: #1690f8;
+  height: 75px;
+  width: 422px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 26px;
+  color: white;
+  font-weight: 700px;
+  margin: 2rem;
+
+  box-shadow: 0px 17px 24px rgba(77, 179, 255, 0.09);
+}
+.path1 {
+  height: 58px;
+  width: 58px;
+  resize: content;
+}

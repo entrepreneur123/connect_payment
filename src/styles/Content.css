@@ -1,0 +1,19 @@
+.content {
+  /* position: absolute; */
+  width: 395px;
+  height: 100vh;
+  /* left: 62px;
+  top: 425px; */
+  background: #1690f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 86px;
+  line-height: 104px;
+  color: white;
+  bottom: 0px;
+}
