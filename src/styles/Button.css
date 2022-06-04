@@ -26,6 +26,9 @@
 .payments.yellow {
   background: #ffaf27;
 }
+.payments.green {
+  background: #1cc984;
+}
 .image__section {
   width: 10%;
   height: 100%;
