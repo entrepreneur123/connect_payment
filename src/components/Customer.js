@@ -7,11 +7,13 @@ import group from "../assets/group.png";
 const Customer = () => {
   return (
     <>
-      <Button heading="Customer Center" image={path4} color="#1690F8" />
-      <ul>
-        <li>What can merchant customize?</li>
-      </ul>
-      <img src={group} alt="here" />
+      <div className="customer">
+        <Button heading="Customer Center" image={path4} color="#1690F8" />
+        <ul className="answerlist__container">
+          <li className="answer-list">What can merchant customize?</li>
+        </ul>
+        <img src={group} alt="here" />
+      </div>
     </>
   );
 };

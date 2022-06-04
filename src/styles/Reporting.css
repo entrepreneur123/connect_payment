@@ -3,4 +3,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  padding: 3rem 0 0 1rem;
+}
+.answer-list {
+  margin-bottom: 5px;
+}
+.answerlist__container {
+  padding: 0.5rem 0 0 1rem;
 }

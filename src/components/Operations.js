@@ -5,10 +5,12 @@ import path3 from "../assets/p1.png";
 const Operations = () => {
   return (
     <>
-      <Button heading="Payment Operations" image={path3} color="#1CC984" />
-      <ul>
-        <li>What's included in account management</li>
-      </ul>
+      <div className="operation">
+        <Button heading="Payment Operations" image={path3} color="#1CC984" />
+        <ul className="answerlist__container">
+          <li className="answer-list">What's included in account management</li>
+        </ul>
+      </div>
     </>
   );
 };
