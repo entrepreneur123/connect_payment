@@ -4,6 +4,8 @@ import Customer from "./Customer";
 import Operations from "./Operations";
 import path1 from "../assets/p4.png";
 import "../styles/Reporting.css";
+import { ELEMENT } from "../utils/mockdata/Data";
+import Answermap from "./Answermap";
 
 const Reporting = () => {
   return (
@@ -14,13 +16,11 @@ const Reporting = () => {
           image={path1}
           colorName="yellow"
         />
-        <ul className="answerlist__container">
-          <li className="answer-list">Reporting and Analytics Overview</li>
-          <li className="answer-list">Reports</li>
-          <li className="answer-list">Scheduled Reporting</li>
-          <li className="answer-list">Transaction history</li>
-          <li className="answer-list">Bank Reconciliation</li>
-        </ul>
+        <div className="answerlist__container">
+          {ELEMENT[5].map((val, key) => (
+            <Answermap key={key} Answer={val} />
+          ))}
+        </div>
         <Operations />
         <Customer />
       </div>

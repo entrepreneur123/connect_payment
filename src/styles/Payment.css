@@ -38,6 +38,7 @@
 
 .answer-list {
   margin-bottom: 5px;
+  display: flex;
 }
 .answerlist__container {
   padding: 0.5rem 0 0 1rem;

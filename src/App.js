@@ -3,6 +3,7 @@ import "./App.css";
 import Landing from "./pages/Landing";
 
 const App = () => {
+  
   return (
     <>
       <Landing />
